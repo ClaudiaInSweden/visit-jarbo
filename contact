@@ -35,7 +35,7 @@
             <li><a href="nature.html">Nature</a></li>
             <li><a href="activities.html">Activities</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="contact.html" class="active">Contact us</a></li>
         </ul>
     </nav>
     </header>  
