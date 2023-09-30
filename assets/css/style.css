@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     color: #783f04;
     font-size: medium;
+    min-height: 100vh;
 
 }
 
@@ -92,6 +93,21 @@ main {
     flex-direction: column;
 }
 
+/* Footer */
+#social-networks-links {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks-links i {
+    font-size: 160%;
+    padding: 5%;
+    color: #783f04;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -129,3 +145,8 @@ main {
         margin: 0 0.5rem;
 
     }
+
+    #social-networks-links i {
+        font-size: 200%;
+                  
+     }
