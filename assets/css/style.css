@@ -6,35 +6,85 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #783f04;
 }
 
 /* General text styles */
 body {
-    font-family: Merriweather, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #783f04;
+    font-size: medium;
 
 }
 
 
-/* General header styles */
+/* General heading styles */
 h1,
 h2,
 h3 {
-    font-family: Merriweather, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     color: #783f04;
 
 }
 
+/* Header */
+header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
 #menu {
     list-style-type: none;
+    text-align: right;
 
+}
+#menu>li {
+    margin-bottom: 2px;
 }
 
 /* Navigation */
 .active {
     border-bottom: 1px solid #274e13;
 }
+nav {
+    position: absolute;
+    width: 100%;
+    display: none;
+    left: 0;
+    padding: 0 1rem;
+    top: 100%;
+
+}
+
 #nav-toggle:checked~nav {
     display: block;
 }
 
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
+#nav-toggle {
+    display: none;
+}
+
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
