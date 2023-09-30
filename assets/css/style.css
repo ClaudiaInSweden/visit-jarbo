@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Capriola', sans-serif;
     color: #783f04;
 }
 
@@ -40,6 +40,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     padding: 1rem;
+    background-color: #ffffff;
 }
 
 header a {
@@ -68,6 +69,7 @@ nav {
     left: 0;
     padding: 0 1rem;
     top: 100%;
+    background-color: rgba(255, 255, 255, 0.76);
     
 
 }
@@ -96,14 +98,18 @@ main {
  /* Hero Section */
  #hero {
      width: 100%;
-     height: 400px;
+     height: 600px;
      background: url(../images/sweden.webp) no-repeat center center/cover;
      position: relative;
-
+     
  }
 
  #hero-text {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    padding: 25px;
+    bottom: 0px;
+
  }
 
 /* Footer */
@@ -158,8 +164,22 @@ main {
         margin: 0 0.5rem;
 
     }
+    /* Hero  Section */
+    #hero-text {
+        width: 600px;
+        left: 50px;
+        font-size: 120%;
+    }
 
     #social-networks-links i {
         font-size: 200%;
                   
      }
+
+
+         /* Media query: Large devices (Laptops and desktops (992px and up) */
+         @media screen and (min-width: 992px) {
+            #hero {
+                background: no-repeat center center/cover;
+            }
+         }
