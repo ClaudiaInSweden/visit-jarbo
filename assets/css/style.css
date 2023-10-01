@@ -143,10 +143,9 @@ main {
 
 /* Why visit section */
 #why-visit {
-    width: 100%;
+    width: 95%;
     line-height: 140%;
     padding: 20px 20px;
-
 }
 
 #why-visit p {
@@ -155,20 +154,26 @@ main {
 
 #why-visit i {
     font-size: x-large;
+    padding-right: 2px;
 }
 
-
-
-/* Why visit image */
-#why-visit-image {
+/* Circle Visit image */
+#circle-visit-image {
     background: url(../images/bear-small.webp) no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
+    border-radius: 50%;
     max-width: 300px;
-    max-height: 200px;
-
+    max-height: 300px;
 }
+#why-visit-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 
 /* Footer */
 #social-networks-links {
@@ -238,7 +243,7 @@ main {
 
     /* Why visit  section */
     #why-visit {
-        margin: 20px 30px;
+        margin: 10px 30px;
 
     }
 
@@ -246,16 +251,12 @@ main {
     #why-visit-nature {
         display: flex;
         flex-direction: column;
-        width: 75%;
+        width: 80%;
         font-size: 120%;
     }
 
-    #why-visit-nature>div {
-        text-align: end;
-        align-self: flex-end;
-    }
 
-    #why-visit-image {
-        align-self: center;
+    #why-visit i {
+        padding-right: 5px;
     }
 }
