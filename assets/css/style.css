@@ -48,6 +48,10 @@ header a {
     text-decoration: none;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 #menu {
     list-style-type: none;
     text-align: right;
@@ -252,6 +256,13 @@ main {
     color: #783f04;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -349,6 +360,12 @@ main {
           
         
                 }
+
+        #photos {
+            column-count: 3;
+        }        
+
+    
 
    }
 
