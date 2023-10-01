@@ -249,11 +249,12 @@ main {
     #why-visit-activities,
     #why-visit-nature {
       
-        width: 90%;
+        width: 100%;
         font-size: 120%;
         column-count: 2;
-        column-gap: 40px;
+        column-gap: 50px;
         margin: 10px 30px;
+        padding-right: 25px;
         
     }
 
@@ -268,5 +269,48 @@ main {
     #circle-visit-image {
             margin: 0;
             padding: 0;
+        }
+}
+
+/* Media query: Large devices, Desktops (1200px and up) */
+/* Why visit section */
+@media screen and (min-width: 1200px) {
+
+    #why-visit {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #why-visit>div {
+        flex: 1;
+    }
+
+    #why-visit-image {
+        order: 0;
+    }
+
+    #why-visit-nature {
+        order: 1;
+    }
+
+    #why-visit-activities>div {
+        align-self: flex-end;
+    }
+
+    #why-visit-nature>div {
+        align-self: flex-start;
+    }
+    #why-visit-activities,
+    #why-visit-nature {
+    
+        column-count: 1;
+        padding-right: 0;
+    
+         }
+
+        #hero-text {
+            width: 800px;
+            left: 50px;
+            font-size: 120%;
         }
 }
