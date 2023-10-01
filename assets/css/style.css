@@ -331,14 +331,16 @@ main {
 
     /* Contact form for screens larger than 768px */
     #hero-contact {
-          position: relative;
-          background-position: center;
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+          min-height: 650px;
         
         }
         
         
         #contact-form {
-            position: absolute;
+        position: absolute;
             left: 5%;
             top: 90px;
             max-width: 400px;
