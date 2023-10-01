@@ -224,6 +224,14 @@ main {
     
 }
 
+#photos {
+    line-height: 0;
+}
+
+#photos img {
+    width: 100%;
+}
+
 
 /* Footer */
 
