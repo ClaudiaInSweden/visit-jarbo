@@ -139,6 +139,33 @@ main {
 
  }
 
+ /* Why visit section */
+ #why-visit {
+    width: 100%;
+    line-height: 140%;
+    padding: 20px 20px;
+    
+ }
+ #why-visit div {
+        margin-bottom: 20px;
+    }
+
+#why-visit i {
+    font-size: large;
+}    
+
+
+
+/* Why visit image */
+#why-visit-image {
+    background: url(../images/fox.webp) no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-height: 300px;
+}
+ 
 /* Footer */
 #social-networks-links {
     text-align: center;
