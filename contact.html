@@ -60,10 +60,68 @@
       </nav>
     </header>
     <!--Main Content -->
+    <!-- Contact us Form -->
     <main>
       <section id="hero-contact">
-        <div id="hero-contact">
-          <h3>Contact form</h3>
+        <form action="http://formdump.codeinstitute.net" method="post" id="contact-form">
+            <h2>Contact us:</h2>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" class="text-input" required>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" class="text-input" required>
+            <br>
+            <label for="email_address">Email Address</label>
+            <input type="email" id="email_address" name="email_address" class="text-input" required>
+            <br>
+            <h3>I am interested in:</h3>
+            <!-- Checkbox -->
+            <div class="checkbox">
+            <ul>
+                <li>
+                    <div>
+                <input type="checkbox" id="hiking" name="activity-info" value="hiking" required>
+                <label for="hiking">Hiking</label></div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="checkbox" id="mountainbiking" name="activity-info" value="mountainbiking" required>
+                            <label for="mountainbiking">Mountainbiking</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="checkbox" id="wildlife" name="activity-info" value="wildlife" required>
+                            <label for="wildlife">Wildlife / Bear watching</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="checkbox" id="fishing" name="activity-info" value="fishing" required>
+                            <label for="fishing">Fishing</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="checkbox" id="swimming" name="activity-info" value="swimming" required>
+                            <label for="swimming">Swimming</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="checkbox" id="skiing" name="activity-info" value="skiing" required>
+                            <label for="skiing">Skiing</label>
+                        </div>
+                    </li>
+                    </ul>
+            </div>
+            <!-- Submit Button -->
+            <input type="submit" class="send-button" value="Send">
+            <input type="reset" class="reset" value="Reset">
+            
+        </form>
+        <div id="contact">
+          
         </div>
       </section>
     </main>
