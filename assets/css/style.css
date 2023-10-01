@@ -139,21 +139,22 @@ main {
     background-position: 50%;
     flex-grow: 1;
     padding: 20px 10px;
+    
 }
 
 #contact-form h2 {
     color: #783f04;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 #contact-form h3 {
-    padding: 30px 0 10px;
+    padding: 25px 0 10px;
 }
 
 #contact-form {
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
-    
+    border-radius: 5px;
 }
 
 .text-input {
@@ -334,7 +335,7 @@ main {
           display: flex;
           justify-content: center;
           margin-top: 20px;
-          min-height: 650px;
+          min-height: 700px;
         
         }
         
@@ -342,9 +343,9 @@ main {
         #contact-form {
         position: absolute;
             left: 5%;
-            top: 90px;
+            top: 110px;
             max-width: 400px;
-            padding: 30px;
+            padding: 20px;
           
         
                 }
