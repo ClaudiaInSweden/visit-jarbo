@@ -70,9 +70,9 @@ nav {
     width: 100%;
     display: none;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 1rem 1rem 0;
     top: 100%;
-    background-color: rgba(255, 255, 255, 0.76);
+    background-color: rgba(255, 255, 255, 0.9);
 
 }
 
@@ -176,12 +176,15 @@ main {
 
 
 /* Footer */
+
 #social-networks-links {
     text-align: center;
-    padding: 20px 0;
     display: flex;
+    padding: 20px 0;
     justify-content: space-evenly;
     list-style-type: none;
+    border-top: 1px solid #783f04;
+
 }
 
 #social-networks-links i {
@@ -199,8 +202,7 @@ main {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
-
+       
     }
 
     .active {
@@ -211,10 +213,12 @@ main {
 
     #menu {
         display: flex;
+        margin-right: 15px;
+        padding: 0 10px;
     }
 
     #menu>li {
-        padding-left: 1rem;
+        padding-left: 0.5rem;
         font-size: 110%;
     }
 
@@ -242,21 +246,27 @@ main {
     }
 
     /* Why visit  section */
-    #why-visit {
-        margin: 10px 30px;
-
-    }
-
     #why-visit-activities,
     #why-visit-nature {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
+      
+        width: 90%;
         font-size: 120%;
+        column-count: 2;
+        column-gap: 40px;
+        margin: 10px 30px;
+        
     }
 
 
     #why-visit i {
         padding-right: 5px;
     }
+
+    #why-visit p {
+        padding-bottom: 20px;
+        }
+    #circle-visit-image {
+            margin: 0;
+            padding: 0;
+        }
 }
