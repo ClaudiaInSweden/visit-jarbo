@@ -40,7 +40,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 1rem;
+    padding: 1rem 1rem 0;
     background-color: #ffffff;
 }
 
@@ -143,13 +143,14 @@ main {
     background-position: 50%;
     flex-grow: 1;
     padding: 20px 10px;
-    
+
 }
 
 #contact-form h2 {
     color: #783f04;
     padding-bottom: 25px;
 }
+
 #contact-form h3 {
     padding: 25px 0 10px;
 }
@@ -178,12 +179,12 @@ main {
 
 .send-button {
     border-radius: 2px;
-        background-color: #783f04;
-        color: #ffffff;
-        font-size: 100%;
-        padding: 5px;
-        margin-top: 20px;
-        border-radius: 5px;
+    background-color: #783f04;
+    color: #ffffff;
+    font-size: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 .reset-button {
@@ -222,11 +223,12 @@ main {
     max-width: 300px;
     max-height: 300px;
 }
+
 #why-visit-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 #photos {
@@ -263,153 +265,156 @@ main {
         column-gap: 0;
     }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+    /* Media query: tablets and larger (768px and up) */
+    @media screen and (min-width: 768px) {
 
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-       
-    }
+        /* Header */
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
 
-    .active {
-        color: #305f18;
-        font-weight: 700;
-
-    }
-
-    #menu {
-        display: flex;
-        margin-right: 15px;
-        padding: 0 10px;
-    }
-
-    #menu>li {
-        padding-left: 0.5rem;
-        font-size: 110%;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-
-    }
-
-    /* Hero  Section */
-    #hero-text {
-        width: 600px;
-        left: 50px;
-        font-size: 120%;
-    }
-
-    #social-networks-links i {
-        font-size: 200%;
-
-    }
-
-    /* Why visit  section */
-    #why-visit-activities,
-    #why-visit-nature {
-      
-        width: 100%;
-        font-size: 120%;
-        column-count: 2;
-        column-gap: 50px;
-        margin: 10px 30px;
-        padding-right: 25px;
-        
-    }
-
-
-    #why-visit i {
-        padding-right: 5px;
-    }
-
-    #why-visit p {
-        padding-bottom: 20px;
         }
-    #circle-visit-image {
+
+        .active {
+            color: #305f18;
+            font-weight: 700;
+
+        }
+
+        #menu {
+            display: flex;
+            margin-right: 15px;
+            padding: 0 10px;
+        }
+
+        #menu>li {
+            padding-left: 0.5rem;
+            font-size: 110%;
+        }
+
+        .nav-toggle-label {
+            display: none;
+        }
+
+        #logo {
+            font-size: 280%;
+            line-height: 75px;
+            margin: 0 0.5rem;
+
+        }
+
+        /* Hero  Section */
+        #hero-text {
+            width: 600px;
+            left: 50px;
+            font-size: 120%;
+        }
+
+        #social-networks-links i {
+            font-size: 200%;
+
+        }
+
+        /* Why visit  section */
+        #why-visit-activities,
+        #why-visit-nature {
+
+            width: 100%;
+            font-size: 120%;
+            column-count: 2;
+            column-gap: 50px;
+            margin: 10px 30px;
+            padding-right: 25px;
+
+        }
+
+
+        #why-visit i {
+            padding-right: 5px;
+        }
+
+        #why-visit p {
+            padding-bottom: 20px;
+        }
+
+        #circle-visit-image {
             margin: 0;
             padding: 0;
         }
 
-    /* Contact form for screens larger than 768px */
-    #hero-contact {
-          display: flex;
-          justify-content: center;
-          margin-top: 20px;
-          min-height: 700px;
-        
+        /* Contact form for screens larger than 768px */
+        #hero-contact {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            min-height: 700px;
+            padding: 0;
+
         }
-        
-        
+
+
         #contact-form {
-        position: absolute;
+            position: absolute;
             left: 5%;
             top: 110px;
             max-width: 400px;
             padding: 20px;
-          
-        
-                }
+
+
+        }
 
         #photos {
             column-count: 3;
-        }        
-
-    
-
-   }
+        }
 
 
 
-/* Media query: Large devices, Desktops (1200px and up) */
-/* Why visit section */
-@media screen and (min-width: 1200px) {
-
-    #why-visit {
-        display: flex;
-        flex-direction: row;
     }
 
-    #why-visit>div {
-        flex: 1;
-    }
 
-    #why-visit-image {
-        order: 0;
-    }
 
-    #why-visit-nature {
-        order: 1;
-    }
+    /* Media query: Large devices, Desktops (1200px and up) */
+    /* Why visit section */
+    @media screen and (min-width: 1200px) {
 
-    #why-visit-activities>div {
-        align-self: flex-end;
-    }
+        #why-visit {
+            display: flex;
+            flex-direction: row;
+        }
 
-    #why-visit-nature>div {
-        align-self: flex-start;
-    }
-    #why-visit-activities,
-    #why-visit-nature {
-    
-        column-count: 1;
-        padding-right: 0;
-    
-         }
+        #why-visit>div {
+            flex: 1;
+        }
+
+        #why-visit-image {
+            order: 0;
+        }
+
+        #why-visit-nature {
+            order: 1;
+        }
+
+        #why-visit-activities>div {
+            align-self: flex-end;
+        }
+
+        #why-visit-nature>div {
+            align-self: flex-start;
+        }
+
+        #why-visit-activities,
+        #why-visit-nature {
+
+            column-count: 1;
+            padding-right: 0;
+
+        }
 
         #hero-text {
             width: 800px;
             left: 50px;
             font-size: 120%;
         }
-}
+    }
