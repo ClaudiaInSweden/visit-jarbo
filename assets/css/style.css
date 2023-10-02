@@ -171,7 +171,7 @@ main {
 #activities-swimming,
 #activities-skiing {
     width: 95%;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 
@@ -179,7 +179,20 @@ main {
     font-size: x-large;
     padding-right: 2px;
 }
+#activities p {
+    padding-bottom: 10px;
+}
 
+a.link:link {
+    color:#305f18;
+}
+a.link:visited {
+    color: #305f18;
+}
+a.link:hover {
+    font-size: 110%;
+    color: #305f18;
+}
 
 
 /* Contact us page */
