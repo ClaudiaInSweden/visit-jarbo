@@ -59,14 +59,6 @@ header a {
     margin-bottom: 2px;
 }
 
-/* Generic paragraph styling */
-
-p {
-    line-height: 140%;
-    padding-bottom: 10px;
-}
-
-/* Navigation Bar */
 .active {
     color: #305f18;
     font-weight: 800;
@@ -103,7 +95,13 @@ main {
     flex-direction: column;
 }
 
-/* Hero Section Index Page */
+/* Generic paragraph styling */
+p {
+    line-height: 140%;
+    padding-bottom: 10px;
+}
+
+/* Index Page - Hero Section */
 #hero {
     width: 100%;
     height: 500px;
@@ -114,11 +112,12 @@ main {
 #hero-text {
     background-color: rgba(255, 255, 255, 0.7);
     position: absolute;
+    border-radius: 5px;
     padding: 25px;
     bottom: 0px;
 }
 
-/* Hero Section Nature page */
+/* Nature Page - Hero Section*/
 #hero-nature {
     width: 100%;
     height: 300px;
@@ -135,6 +134,7 @@ main {
     left: 20px;
 }
 
+/* Nature Page Main Content */
 #nature {
     display: flex;
     flex-wrap: wrap;
@@ -149,13 +149,13 @@ main {
     padding: 10px 20px;
 }
 
-/* Size and padding to icon */
+/* Nature Page - Size and padding to icons */
 #nature i {
     font-size: x-large;
     padding-right: 2px;
 }
 
-/* Hero Section Activities page */
+/* Activities page - Hero Section */
 #hero-activities {
     width: 100%;
     height: 300px;
@@ -172,6 +172,7 @@ main {
     left: 20px;
 }
 
+/* Activities Page Main Content */
 #activities {
     display: flex;
     flex-wrap: wrap;
@@ -189,7 +190,7 @@ main {
     padding: 10px 20px;
 }
 
-/* Size and padding to icon */
+/* Activities Page - Size and padding to icons */
 #activities i {
     font-size: x-large;
     padding-right: 2px;
@@ -209,7 +210,7 @@ a.link:hover {
     color: #305f18;
 }
 
-/* Contact us page */
+/* Contact us Page */
 #hero-contact {
     background: url(../images/bear-large.webp) no-repeat center center/cover;
     background-size: cover;
@@ -249,6 +250,7 @@ a.link:hover {
     list-style-type: none;
 }
 
+/* Contact form buttons */
 .send-button {
     border-radius: 2px;
     background-color: #783f04;
@@ -269,15 +271,10 @@ a.link:hover {
     border-radius: 5px;
 }
 
-/* Why visit section */
+/* Why visit section on Index Page */
 #why-visit {
     width: 95%;
-    line-height: 140%;
-    padding: 20px 20px;
-}
-
-#why-visit p {
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
 #why-visit i {
@@ -285,7 +282,7 @@ a.link:hover {
     padding-right: 2px;
 }
 
-/* Circle Why Visit image */
+/* Circle Why Visit image on Index Page */
 #circle-visit-image {
     background: url(../images/bear-small.webp) no-repeat top center/cover;
     height: 90vw;
@@ -328,6 +325,7 @@ a.link:hover {
 }
 
 /* Media query: large or landscape phones (576px and up) */
+/* Gallery Page for screens>576px */
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
@@ -338,7 +336,7 @@ a.link:hover {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Header */
+    /* Header for screens>768px */
     nav {
         display: block;
         position: relative;
@@ -346,7 +344,7 @@ a.link:hover {
         width: fit-content;
     }
 
-    /* Menu Links */
+    /* Menu for screens>768px */
     .active {
         color: #305f18;
         font-weight: 700;
@@ -373,19 +371,19 @@ a.link:hover {
         margin: 0 0.5rem;
     }
 
-    /* Hero  Section */
+    /* Hero  Section on Index Page for screens>768px */
     #hero-text {
         width: 600px;
         left: 50px;
         font-size: 120%;
     }
 
-    /* Footer */
+    /* Footer for screens>768px */
     #social-networks-links i {
         font-size: 200%;
     }
 
-    /* Why visit  section */
+    /* Why visit section on Index Page for screens>768px */
     #why-visit-activities,
     #why-visit-nature {
         width: 100%;
@@ -409,7 +407,7 @@ a.link:hover {
         padding: 0;
     }
 
-    /* Contact form for screens larger than 768px */
+    /* Contact form for screens>768px */
     #hero-contact {
         display: flex;
         justify-content: center;
@@ -426,12 +424,12 @@ a.link:hover {
         padding: 20px;
     }
 
-    /* Gallery section */
+    /* Gallery Page for screens>768px */
     #photos {
         column-count: 3;
     }
 
-    /* Nature Page section */
+    /* Nature Page for screens>768px */
     #hero-nature {
         height: 400px;
     }
@@ -440,7 +438,7 @@ a.link:hover {
         margin: 20px;
     }
 
-    /* Activity Page section */
+    /* Activities Page for screens>768px */
     #hero-activities {
         height: 400px;
     }
@@ -453,7 +451,7 @@ a.link:hover {
 /* Media query: Large devices, Desktops (1200px and up) */
 @media screen and (min-width: 1200px) {
 
-/* Why visit section on Index Page */
+    /* Why visit section on Index Page for screens>1200px */
     #why-visit {
         display: flex;
         flex-direction: row;
@@ -485,6 +483,7 @@ a.link:hover {
         padding-right: 0;
     }
 
+    /* Nature Page for screens>1200px */
     #hero-text {
         width: 800px;
         left: 50px;
@@ -506,7 +505,7 @@ a.link:hover {
         padding-right: 5px;
     }
 
-    /* Activities Page */
+    /* Activities Page for screens >1200px */
     #activities-text {
         width: 370px;
         left: 50px;
@@ -521,4 +520,6 @@ a.link:hover {
     #activities i {
         padding-right: 5px;
     }
-g}
+
+    g
+}
