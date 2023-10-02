@@ -180,10 +180,14 @@ main {
     flex-grow: 1;
     padding: 10px 20px;
 }
-
+/* Size and padding to text */
 #activities i {
     font-size: x-large;
     padding-right: 2px;
+}
+#activities p {
+    line-height: 140%;
+    padding-bottom: 10px;
 }
 
 
