@@ -121,11 +121,21 @@ main {
 /* Hero Section Nature page */
 #hero-nature {
     width: 100%;
-    height: 600px;
+    height: 200px;
     background: url(../images/lake.webp) no-repeat center center/cover;
     position: relative;
-
 }
+
+#nature {
+    top: 200px;
+    width: 95%;
+    padding: 20px;
+    bottom: 50px;
+    position: absolute;
+}
+
+
+
 
 /* Hero Section Activities page */
 #hero-activities {
@@ -264,6 +274,7 @@ main {
         column-count: 2;
         column-gap: 0;
     }
+}
 
     /* Media query: tablets and larger (768px and up) */
     @media screen and (min-width: 768px) {
@@ -362,14 +373,11 @@ main {
             max-width: 400px;
             padding: 20px;
 
-
         }
 
         #photos {
             column-count: 3;
         }
-
-
 
     }
 
