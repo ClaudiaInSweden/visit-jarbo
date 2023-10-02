@@ -431,19 +431,16 @@ a.link:hover {
         column-count: 3;
     }
 
-    /* Nature section */
+    /* Nature Page section */
     #hero-nature {
         height: 400px;
     }
 
     #nature {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        line-height: 140%;
+        margin: 20px;
     }
 
-    /* Activity section */
+    /* Activity Page section */
     #hero-activities {
         height: 400px;
     }
@@ -456,7 +453,7 @@ a.link:hover {
 /* Media query: Large devices, Desktops (1200px and up) */
 @media screen and (min-width: 1200px) {
 
-    /* Why visit section */
+/* Why visit section on Index Page */
     #why-visit {
         display: flex;
         flex-direction: row;
@@ -502,12 +499,7 @@ a.link:hover {
     }
 
     #hero-nature {
-        background-position: 50% 75%;
-    }
-
-    #nature {
-        padding: 25px;
-        column-gap: 30px;
+        background-position: 40% 70%;
     }
 
     #nature i {
@@ -520,6 +512,10 @@ a.link:hover {
         left: 50px;
         font-size: 120%;
         margin-bottom: 30px;
+    }
+
+    #hero-activities {
+        background-position: 20% 75%;
     }
 
     #activities i {
