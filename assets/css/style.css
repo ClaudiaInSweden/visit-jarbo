@@ -121,7 +121,7 @@ p {
 #hero-nature {
     width: 100%;
     height: 300px;
-    background: url(../images/lake.webp) no-repeat center center/cover;
+    background: url(../images/lake.webp) no-repeat center bottom/cover;
     position: relative;
 }
 
@@ -159,7 +159,7 @@ p {
 #hero-activities {
     width: 100%;
     height: 300px;
-    background: url(../images/forest.webp) no-repeat center center/cover;
+    background: url(../images/forest.webp) no-repeat center bottom/cover;
     position: relative;
 }
 
@@ -233,6 +233,7 @@ a.link:hover {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     border-radius: 5px;
+    width: 100%;
 }
 
 .text-input {
@@ -416,13 +417,13 @@ a.link:hover {
         padding: 0;
     }
 
-    #contact-form {
-        position: absolute;
-        left: 5%;
-        top: 110px;
-        max-width: 400px;
-        padding: 20px;
-    }
+        #contact-form {
+            position: absolute;
+            left: 5%;
+            top: 110px;
+            max-width: 600px;
+            padding: 20px;
+        }
 
     /* Gallery Page for screens>768px */
     #photos {
@@ -432,6 +433,7 @@ a.link:hover {
     /* Nature Page for screens>768px */
     #hero-nature {
         height: 400px;
+        background-position: 20% 75%;
     }
 
     #nature {
@@ -441,6 +443,7 @@ a.link:hover {
     /* Activities Page for screens>768px */
     #hero-activities {
         height: 400px;
+        background-position: 20% 75%;
     }
 
     #activities {
