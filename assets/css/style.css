@@ -134,6 +134,13 @@ main {
     position: absolute;
 }
 
+#nature p {
+    margin-bottom: 10px;
+}
+#nature i {
+    font-size: large;
+    padding-right: 2px;
+}
 
 
 
