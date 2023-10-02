@@ -19,9 +19,7 @@ body {
     color: #783f04;
     font-size: medium;
     min-height: 100vh;
-
 }
-
 
 /* General heading styles */
 h1,
@@ -29,7 +27,6 @@ h2,
 h3 {
     font-family: 'Merriweather Sans', sans-serif;
     color: #783f04;
-
 }
 
 /* Header */
@@ -52,21 +49,28 @@ header a {
     display: none;
 }
 
+/* Navigation menu */
 #menu {
     list-style-type: none;
     text-align: right;
-
 }
 
 #menu>li {
     margin-bottom: 2px;
 }
 
-/* Navigation */
+/* Generic paragraph styling */
+
+p {
+    line-height: 140%;
+    padding-bottom: 10px;
+}
+
+/* Navigation Bar */
 .active {
     color: #305f18;
     font-weight: 800;
-
+    border-bottom: 1px solid #305f18;
 }
 
 nav {
@@ -77,7 +81,6 @@ nav {
     padding: 0 1rem 1rem 0;
     top: 100%;
     background-color: rgba(255, 255, 255, 0.9);
-
 }
 
 #nav-toggle:checked~nav {
@@ -106,7 +109,6 @@ main {
     height: 500px;
     background: url(../images/sweden.webp) no-repeat center center/cover;
     position: relative;
-
 }
 
 #hero-text {
@@ -114,7 +116,6 @@ main {
     position: absolute;
     padding: 25px;
     bottom: 0px;
-
 }
 
 /* Hero Section Nature page */
@@ -123,7 +124,6 @@ main {
     height: 300px;
     background: url(../images/lake.webp) no-repeat center center/cover;
     position: relative;
-
 }
 
 #nature-text {
@@ -135,12 +135,21 @@ main {
     left: 20px;
 }
 
-#nature-forest, #nature-lake, #nature-wildlife {
-    width: 95%;
-    padding: 20px;
+#nature {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
+#nature-forest,
+#nature-lake,
+#nature-wildlife {
+    flex-basis: 350px;
+    flex-grow: 1;
+    padding: 10px 20px;
+}
 
+/* Size and padding to icon */
 #nature i {
     font-size: x-large;
     padding-right: 2px;
@@ -167,8 +176,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    }
-
+}
 
 #activities-hiking,
 #activities-biking,
@@ -180,30 +188,26 @@ main {
     flex-grow: 1;
     padding: 10px 20px;
 }
-/* Size and padding to text */
+
+/* Size and padding to icon */
 #activities i {
     font-size: x-large;
     padding-right: 2px;
 }
-#activities p {
-    line-height: 140%;
-    padding-bottom: 10px;
-}
-
 
 /* Activities link styles for better visibility */
 a.link:link {
-    color:#305f18;
+    color: #305f18;
 }
+
 a.link:visited {
     color: #305f18;
 }
+
 a.link:hover {
     font-size: 110%;
     color: #305f18;
 }
-
-
 
 /* Contact us page */
 #hero-contact {
@@ -212,7 +216,6 @@ a.link:hover {
     background-position: 50%;
     flex-grow: 1;
     padding: 20px 10px;
-
 }
 
 #contact-form h2 {
@@ -282,7 +285,7 @@ a.link:hover {
     padding-right: 2px;
 }
 
-/* Circle Visit image */
+/* Circle Why Visit image */
 #circle-visit-image {
     background: url(../images/bear-small.webp) no-repeat top center/cover;
     height: 90vw;
@@ -297,7 +300,6 @@ a.link:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #photos {
@@ -308,9 +310,7 @@ a.link:hover {
     width: 100%;
 }
 
-
 /* Footer */
-
 #social-networks-links {
     text-align: center;
     display: flex;
@@ -318,9 +318,9 @@ a.link:hover {
     justify-content: space-evenly;
     list-style-type: none;
     border-top: 1px solid #783f04;
-
 }
 
+/* Size and color of Social Network icons */
 #social-networks-links i {
     font-size: 160%;
     padding: 5%;
@@ -335,208 +335,194 @@ a.link:hover {
     }
 }
 
-    /* Media query: tablets and larger (768px and up) */
-    @media screen and (min-width: 768px) {
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
 
-        /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-
-        }
-
-        .active {
-            color: #305f18;
-            font-weight: 700;
-
-        }
-
-        #menu {
-            display: flex;
-            margin-right: 15px;
-            padding: 0 10px;
-        }
-
-        #menu>li {
-            padding-left: 0.5rem;
-            font-size: 110%;
-        }
-
-        .nav-toggle-label {
-            display: none;
-        }
-
-        #logo {
-            font-size: 280%;
-            line-height: 75px;
-            margin: 0 0.5rem;
-
-        }
-
-        /* Hero  Section */
-        #hero-text {
-            width: 600px;
-            left: 50px;
-            font-size: 120%;
-        }
-
-        #social-networks-links i {
-            font-size: 200%;
-
-        }
-
-        /* Why visit  section */
-        #why-visit-activities,
-        #why-visit-nature {
-
-            width: 100%;
-            font-size: 120%;
-            column-count: 2;
-            column-gap: 50px;
-            margin: 10px 30px;
-            padding-right: 25px;
-
-        }
-
-
-        #why-visit i {
-            padding-right: 5px;
-        }
-
-        #why-visit p {
-            padding-bottom: 20px;
-        }
-
-        #circle-visit-image {
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Contact form for screens larger than 768px */
-        #hero-contact {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-            min-height: 700px;
-            padding: 0;
-
-        }
-
-
-        #contact-form {
-            position: absolute;
-            left: 5%;
-            top: 110px;
-            max-width: 400px;
-            padding: 20px;
-
-        }
-        /* Gallery section */
-
-        #photos {
-            column-count: 3;
-        }
-
-        /* Nature section */
-        #hero-nature {
-            height: 400px;
-        }
-        #nature {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            line-height: 140%;
-                    
-        }
-        /* Activity section */
-        #hero-activities {
-            height: 400px;
-
-        }
-
-        #activities {
-            margin: 20px;
-            
-        }
-        
-        
-
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
     }
 
+    /* Menu Links */
+    .active {
+        color: #305f18;
+        font-weight: 700;
+    }
 
+    #menu {
+        display: flex;
+        margin-right: 15px;
+        padding: 0 10px;
+    }
 
-    /* Media query: Large devices, Desktops (1200px and up) */
+    #menu>li {
+        padding-left: 0.5rem;
+        font-size: 110%;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Hero  Section */
+    #hero-text {
+        width: 600px;
+        left: 50px;
+        font-size: 120%;
+    }
+
+    /* Footer */
+    #social-networks-links i {
+        font-size: 200%;
+    }
+
+    /* Why visit  section */
+    #why-visit-activities,
+    #why-visit-nature {
+        width: 100%;
+        font-size: 120%;
+        column-count: 2;
+        column-gap: 50px;
+        margin: 10px 30px;
+        padding-right: 25px;
+    }
+
+    #why-visit i {
+        padding-right: 5px;
+    }
+
+    #why-visit p {
+        padding-bottom: 20px;
+    }
+
+    #circle-visit-image {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Contact form for screens larger than 768px */
+    #hero-contact {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        min-height: 700px;
+        padding: 0;
+    }
+
+    #contact-form {
+        position: absolute;
+        left: 5%;
+        top: 110px;
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    /* Gallery section */
+    #photos {
+        column-count: 3;
+    }
+
+    /* Nature section */
+    #hero-nature {
+        height: 400px;
+    }
+
+    #nature {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        line-height: 140%;
+    }
+
+    /* Activity section */
+    #hero-activities {
+        height: 400px;
+    }
+
+    #activities {
+        margin: 20px;
+    }
+}
+
+/* Media query: Large devices, Desktops (1200px and up) */
+@media screen and (min-width: 1200px) {
+
     /* Why visit section */
-    @media screen and (min-width: 1200px) {
-
-        #why-visit {
-            display: flex;
-            flex-direction: row;
-        }
-
-        #why-visit>div {
-            flex: 1;
-        }
-
-        #why-visit-image {
-            order: 0;
-        }
-
-        #why-visit-nature {
-            order: 1;
-        }
-
-        #why-visit-activities>div {
-            align-self: flex-end;
-        }
-
-        #why-visit-nature>div {
-            align-self: flex-start;
-        }
-
-        #why-visit-activities,
-        #why-visit-nature {
-
-            column-count: 1;
-            padding-right: 0;
-
-        }
-
-        #hero-text {
-            width: 800px;
-            left: 50px;
-            font-size: 120%;
-        }
-
-        #nature-text {
-            width: 370px;
-            left: 50px;
-            font-size: 120%;
-            margin-bottom: 30px;
-        }
-        #hero-nature {
-            background-position: 50% 75%;
-        }
-        #nature {
-            padding: 25px;
-            column-gap: 30px;
-    
-                    }
-        #nature i {
-            padding-right: 5px;
-        }
-
-        /* Activities Page */
-                #activities-text {
-                    width: 370px;
-                    left: 50px;
-                    font-size: 120%;
-                    margin-bottom: 30px;
-    
+    #why-visit {
+        display: flex;
+        flex-direction: row;
     }
-        #activities i {
-            padding-right: 5px;
-        }
+
+    #why-visit>div {
+        flex: 1;
     }
+
+    #why-visit-image {
+        order: 0;
+    }
+
+    #why-visit-nature {
+        order: 1;
+    }
+
+    #why-visit-activities>div {
+        align-self: flex-end;
+    }
+
+    #why-visit-nature>div {
+        align-self: flex-start;
+    }
+
+    #why-visit-activities,
+    #why-visit-nature {
+        column-count: 1;
+        padding-right: 0;
+    }
+
+    #hero-text {
+        width: 800px;
+        left: 50px;
+        font-size: 120%;
+    }
+
+    #nature-text {
+        width: 370px;
+        left: 50px;
+        font-size: 120%;
+        margin-bottom: 30px;
+    }
+
+    #hero-nature {
+        background-position: 50% 75%;
+    }
+
+    #nature {
+        padding: 25px;
+        column-gap: 30px;
+    }
+
+    #nature i {
+        padding-right: 5px;
+    }
+
+    /* Activities Page */
+    #activities-text {
+        width: 370px;
+        left: 50px;
+        font-size: 120%;
+        margin-bottom: 30px;
+    }
+
+    #activities i {
+        padding-right: 5px;
+    }
+g}
