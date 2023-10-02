@@ -521,4 +521,13 @@ a.link:hover {
         padding-right: 5px;
     }
 
+    #activities-hiking,
+    #activities-biking,
+    #activities-wildlife,
+    #activities-fishing,
+    #activities-swimming,
+    #activities-skiing {
+        flex-basis: 33%;       
+    }
+
 }
