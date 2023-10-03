@@ -251,11 +251,11 @@ a.link:hover {
 
 #contact-form h2 {
     color: #783f04;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 #contact-form h3 {
-    padding: 25px 0 10px;
+    padding: 20px 0 10px;
 }
 
 #contact-form {
@@ -268,13 +268,13 @@ a.link:hover {
 
 .text-input {
     background-color: transparent;
-    color: #783f04;
+    color: #305f18;
     border: 2px solid #783f04;
-    border-radius: 2px;
+    border-radius: 5px;
     margin: 5px 0 10px 0;
     width: 100%;
     font-size: 90%;
-    padding: 2px 5px;
+    padding: 5px;
 }
 .text-input:focus {
     border: 3px solid #305f18;
@@ -292,15 +292,28 @@ a.link:hover {
     padding: 5px;
     margin-top: 20px;
     border-radius: 5px;
+    width: 80px;
+}
+.send-button:hover {
+    background-color: #305f18;
+}
+.send-button:checked {
+    background-color: #305f18;
 }
 
 .reset-button {
     background-color: #ffffff;
+    border: 3px solid #783f04;
     color: #783f04;
     font-size: 100%;
     padding: 5px;
     margin: 20px 0 0 10px;
     border-radius: 5px;
+    width: 80px;
+}
+.reset-button:hover {
+    color: #305f18;
+    border-color: #305f18;
 }
 
 #photos {
