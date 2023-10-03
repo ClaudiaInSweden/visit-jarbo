@@ -157,7 +157,7 @@ p {
     background-color: rgba(255, 255, 255, 0.7);
     position: absolute;
     border-radius: 5px;
-    padding: 10px;
+    padding: 25px;
     bottom: 20px;
     left: 20px;
 }
@@ -439,6 +439,10 @@ a.link:hover {
         background-position: 20% 75%;
     }
 
+    #nature-text {
+        left: 50px;
+    }
+
     #nature {
         margin: 20px;
     }
@@ -447,6 +451,10 @@ a.link:hover {
     #hero-activities {
         height: 400px;
         background-position: 20% 75%;
+    }
+
+    #activities-text {
+        left: 50px;
     }
 
     #activities {
