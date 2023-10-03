@@ -392,7 +392,7 @@ a.link:hover {
     #why-visit-activities,
     #why-visit-nature {
         width: 100%;
-        font-size: 120%;
+        font-size: 110%;
         column-count: 2;
         column-gap: 50px;
         margin: 10px 30px;
@@ -421,12 +421,12 @@ a.link:hover {
         padding: 0;
     }
 
-        #contact-form {
-            position: absolute;
-            left: 5%;
-            top: 110px;
-            max-width: 600px;
-            padding: 20px;
+    #contact-form {
+        position: absolute;
+        left: 5%;
+        top: 110px;
+        max-width: 600px;
+        padding: 20px;
         }
 
     /* Gallery Page for screens>768px */
@@ -500,7 +500,7 @@ a.link:hover {
     #nature-text {
         width: 370px;
         left: 50px;
-        font-size: 120%;
+        font-size: 110%;
         margin-bottom: 30px;
     }
 
@@ -516,7 +516,7 @@ a.link:hover {
     #activities-text {
         width: 370px;
         left: 50px;
-        font-size: 120%;
+        font-size: 110%;
         margin-bottom: 30px;
     }
 
