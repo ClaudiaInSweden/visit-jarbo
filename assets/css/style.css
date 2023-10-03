@@ -290,8 +290,8 @@ a.link:hover {
 /* Circle Why Visit image on Index Page */
 #circle-visit-image {
     background: url(../images/bear-small.webp) no-repeat top center/cover;
-    height: 90vw;
-    width: 90vw;
+    height: 80vw;
+    width: 80vw;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
