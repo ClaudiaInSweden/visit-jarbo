@@ -337,7 +337,7 @@ a.link:hover {
     padding: 20px 0;
     justify-content: space-evenly;
     list-style-type: none;
-    border-top: 1px solid #783f04;
+    border-top: 2px solid #783f04;
 }
 
 /* Size and color of Social Network icons */
