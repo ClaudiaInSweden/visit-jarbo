@@ -117,6 +117,34 @@ p {
     bottom: 0px;
 }
 
+/* Why visit section on Index Page */
+#why-visit {
+    width: 100%;
+    padding: 20px;
+}
+
+#why-visit i {
+    font-size: x-large;
+    padding-right: 2px;
+}
+
+/* Circle Why Visit image on Index Page */
+#circle-visit-image {
+    background: url(../images/bear-small.webp) no-repeat top center/cover;
+    height: 80vw;
+    width: 80vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#why-visit-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Nature Page - Hero Section*/
 #hero-nature {
     width: 100%;
@@ -250,7 +278,6 @@ a.link:hover {
     border: 3px solid #305f18;
 }
 
-
 .checkbox li {
     list-style-type: none;
 }
@@ -274,34 +301,6 @@ a.link:hover {
     padding: 5px;
     margin: 20px 0 0 10px;
     border-radius: 5px;
-}
-
-/* Why visit section on Index Page */
-#why-visit {
-    width: 95%;
-    padding: 20px;
-}
-
-#why-visit i {
-    font-size: x-large;
-    padding-right: 2px;
-}
-
-/* Circle Why Visit image on Index Page */
-#circle-visit-image {
-    background: url(../images/bear-small.webp) no-repeat top center/cover;
-    height: 80vw;
-    width: 80vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#why-visit-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #photos {
