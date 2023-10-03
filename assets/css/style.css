@@ -160,6 +160,7 @@ p {
     padding: 10px;
     bottom: 20px;
     left: 20px;
+    width: 150px;
 }
 
 /* Nature Page Main Content */
@@ -198,6 +199,7 @@ p {
     padding: 10px;
     bottom: 20px;
     left: 20px;
+    width: 150px;
 }
 
 /* Activities Page Main Content */
@@ -284,7 +286,6 @@ a.link:hover {
 
 /* Contact form buttons */
 .send-button {
-    border-radius: 2px;
     background-color: #783f04;
     color: #ffffff;
     font-size: 100%;
@@ -294,7 +295,6 @@ a.link:hover {
 }
 
 .reset-button {
-    border-radius: 2px;
     background-color: #ffffff;
     color: #783f04;
     font-size: 100%;
@@ -442,6 +442,8 @@ a.link:hover {
 
     #nature-text {
         left: 50px;
+        bottom: 50px;
+        width: 300px;
     }
 
     #nature {
@@ -456,6 +458,8 @@ a.link:hover {
 
     #activities-text {
         left: 50px;
+        bottom: 50px;
+        width: 300px;
     }
 
     #activities {
@@ -511,8 +515,8 @@ a.link:hover {
     #nature-text {
         width: 370px;
         left: 50px;
+        bottom: 50px;
         font-size: 110%;
-        margin-bottom: 30px;
     }
 
     #hero-nature {
@@ -527,8 +531,8 @@ a.link:hover {
     #activities-text {
         width: 370px;
         left: 50px;
+        bottom: 50px;
         font-size: 110%;
-        margin-bottom: 30px;
     }
 
     #hero-activities {
