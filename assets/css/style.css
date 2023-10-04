@@ -61,7 +61,7 @@ header a {
 .active {
     color: #305f18;
     font-weight: 800;
-    border-bottom: 1px solid #305f18;
+    border-bottom: 2px solid #305f18;
 }
 
 nav {
@@ -345,6 +345,10 @@ a.link:hover {
     font-size: 160%;
     padding: 5%;
     color: #783f04;
+}
+
+#social-networks-links i:hover {
+    color: #305f18;
 }
 
 /* Media query: large or landscape phones (576px and up) */

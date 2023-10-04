@@ -1,39 +1,35 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Visit Järbo
 
-Welcome,
+## Introduction
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Visit Järbo is a site that shall provide information to travellers about what to expect when coming to this small town. Its vicinity to Kungsberget, which is a small but known ski resort relatively close to Stockholm makes Järbo an ideal place to stay when a traveller does not want to stay in the overcrowded area of Kungsberget. Järbos surroundings make it an ideal place to stay when you want to take a rest from your hectic everyday life. Visitors can go on hiking or bicycle tours without meeting other people, if they want so.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+I am living in the area and I feel that this little town needs to have its own website in English to show potential visitors what a beautiful place this is and things you can do and places to visit when you come here.
 
-## Codeanywhere Reminders
+### Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The site consists of five pages.
 
-`python3 -m http.server`
+#### Start Page  
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The index.html/Home page is the starting point for users. It shall provide a short overview of what Järbo has to offer and the hero image represents forest, water, sun and blue sky - the ideal place to make a break. There are no people in the picture which shows how peaceful it is. 
+The bear image gives a hint of the exciting things that you will find when you continue on the website.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+#### Navigation
+The navigation bar on top of the page is featured on all five pages with the same look
 
-`http_server`
+#### nature.html
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The hero image on the nature page shows a peaceful, quiet lake. It invites the user to relax and take a deep breath. 
+The text describes short what the user can expect being outdoor. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+#### activities.html
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The hero image on the activities page shows a trail in the forest. It can be used for hiking or bicycling and you can find further activities that are possible to do in the area. There are also links to external information pages and service providers which open in a new tab. 
 
-To log into the Heroku toolbelt CLI:
+#### gallery.html
+The gallery page shows pictures of the are as well as wild animals that you might see while strolling through the forest. 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### contact.html
+The contact page image shows a bear that shall provide the feeling of exciting things to happen when filling in the contact form. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
