@@ -49,9 +49,15 @@ The contact form enables user to request more information about outdoor activiti
 The footer area contains links to relevant social media sites (Facebook, X (Twitter), and Instagram) to encourage users to keep connected. The icons include alterntive text to provide relevant information when screen readers are used. All links open in a new tab to allow easy navigation for the user. 
 
 
-### Features left to implement
-As users might want to receive information about more than one topic I originally used checkboxes for the Contact us page. However, after som trials and Google research I found out that this requires Javascript which was not part of course so far.
-If there is interest from local service providers, more and detailed information about activities and accommodation could be included. It would also be possible to create Facebook and Instagram accounts for "Visit Järbo" and allow a group of people to post updates, to replace the empty links to real content. 
+### Future Features
+While the current version is fully functional, there are a some ideas for future development:
+- Include map and directions
+- Add more information about the location
+- Add Review connectivity (Tripadvisor, Google, or similar)
+- Add accommodation information & booking possibility
+- Add more service providers
+- Add livecam view & live weather conditions
+ 
 
 
 ## Testing
@@ -69,6 +75,7 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
 ## Browser Testing
 Functionality, links, layout and responsiveness was tested with following browsers without any issues:
+
 - Microsoft Edge Version 117.0.2045.47
 - Firefox Version 118.0.1
 - Brave Version 1.58.135
@@ -77,16 +84,16 @@ Functionality, links, layout and responsiveness was tested with following browse
 
 ## Device Testing
 Functionality, links, layout and responsiveness was tested on the following devices without any issues:
-- Dell Laptop 14"
-- HP Laptop 17"
-- Dell Screen 24"
-- Samsung Galaxy 22S Ultra
-- iPhone 8 
+- Dell Laptop 14" / 1920px x 1080px
+- HP Laptop 17" / 1920px x 1080px
+- Dell Screen 24" / 1920px x 1080px
+- Samsung Galaxy 22S Ultra / 3088px x 1440px
+- iPhone 8 / 1334px × 750px
 
 
-#### Findings under testing
+### Findings under testing
 
-- While input-text:hover border colour looked correct on Google Chrome and Edge I noticed a blue border on Mozilla. I realized that some default border style needs to be the reason and found the solution on the [Mozilla MDN Website](https://developer.mozilla.org/en-US/).
+- As users might want to receive information about more than one topic I originally used checkboxes for the Contact us page. However, after som trials and Google research I found out that this requires Javascript which was not part of course so far. 
 
 
 ## Deployment
@@ -96,7 +103,7 @@ to be continued
 ## Credits
 
 ### Content
-Idea, content and text are developed by myselft.
+Idea, content and text are developed by myself.
 Inspiration for layout was taken from the walkthrough project "Love Running" and default SharePoint page layouts.
 
 - Detailed information about what kind of fish there are to catch is from [iFiske](https://www.ifiske.se/en/fishing-harnen-holmsjon-langsjon-m-fl-vatten.htm).
