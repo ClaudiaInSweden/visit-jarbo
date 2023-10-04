@@ -3,50 +3,50 @@
 
 ## Introduction
 
-Visit Järbo is a site that shall provide information to travellers about what to expect when coming to this small town. Its vicinity to Kungsberget, which is a small but known ski resort relatively close to Stockholm makes Järbo an ideal place to stay when a traveller does not want to stay in the overcrowded area of Kungsberget. Järbos surroundings make it an ideal place to stay when you want to take a rest from your hectic everyday life. Visitors can go on hiking or bicycle tours without meeting other people, if they want so.
+### Project Description
+Visit Järbo is a site that provides information to travellers about what to expect when coming to Järbo. 
 
-I am living in the area and I feel that this little town needs to have its own website in English to show potential visitors what a beautiful place this is and things you can do and places to visit when you come here.
+Its vicinity to the ski resort Kungsberget, makes the small town of Järbo an ideal place to stay for travellers who want to avoid the overcrowded area of Kungsberget. Järbos surroundings make it an ideal place to stay when visitors want to take a rest from their hectic everyday life. 
 
-
-### Features
-
-
-The site consists of five pages.
-
-#### Start Page  
-
-The index.html/Home page is the starting point for users. It shall provide a short overview of what Järbo has to offer and the hero image represents forest, water, sun and blue sky - the ideal place to make a break. There are no people in the picture which shows how peaceful it is. 
-The bear image gives a hint of the exciting things that you will find when you continue on the website.
+### Project Purpose
+There are are couple of international companies in the area and their employees and business partners are potential visitors who do need information about the place in English
 
 
-#### Navigation
-The navigation bar on top of the page is featured with the same look on all five pages. The menu is fully responsive and it's easy to navigate for the user as the active tab is easy recognisable by changed colour and underline.
-Links are available to all pages: Home, Nature, Activities, Gallery, Contact us. The Visit Järbo text is linked to the Start page. 
+## Features
+
+### Navigation
+
+- The respsonsive navigation bar on top of the page includes links to the Home, Nature, Activities, Gallery, Contact us. The Visit Järbo logo is linked to the Start page. It's identical on each page to enable easy navigation.
+- It allows users to navigate between pages on all devices without needing to use the "back"-button. 
 
 
-#### Nature
+### Home   
 
-The hero image on the Nature page shows a peaceful, quiet lake. It invites the user to relax and take a deep breath. 
-The text describes in short what the user can expect being outdoor in the area. 
-
-
-#### Activities
-
-The hero image on the activities page shows a trail in the forest. It can be used for hiking or bicycling and you can find further activities that are possible to do in the area. There are also links to external information pages and service providers which open in a new tab. 
+The Home page is the starting point for users. It provides a short overview of what Järbo has to offer
 
 
-#### Gallery
-The gallery page shows pictures of the area as well as wild animals that the user might be able to see while strolling through the forest. 
-The images include alt-tags to provide respective information if screen readers are used. 
+### Nature
+
+The pages describes in short what the user can expect being outdoor in the area. 
+
+### Activities
+
+The page describes in short what kind of outdoor activities the user can enjoy.
+There are also links to external information pages and service providers. The links open in a new tab to allow easy navigation without needing to use the back-button.. 
+
+### Gallery
+
+The page shows images of the area as well as wild animals that the user might be able to see during the stay. 
+The images include alt-tags to provide relevant information when screen readers are used. 
 
 
-#### Contact us
-The contact us page image shows a bear that shall provide the feeling of exciting things to happen when filling in the contact form. 
-The input text will be displayed in green color and the send and reset buttons will change color when the mouse hovers over. 
+### Contact us
 
+The contact form enables user to request more information about outdoor activities, listed on the activities page. It includes fields for name, email and radio buttons to select.
 
-#### Social Media Links
-The footer area contains links to Facebook, X (Twitter), and Instagram. As I use icons the images include alt-tags to provide respective information if screen readers are used. All links open in a new tab and change color on mouse over. 
+### Footer
+
+The footer area contains links to relevant social media sites (Facebook, X (Twitter), and Instagram) to encourage users to keep connected. The icons include alterntive text to provide relevant information when screen readers are used. All links open in a new tab to allow easy navigation for the user. 
 
 
 ### Features left to implement
