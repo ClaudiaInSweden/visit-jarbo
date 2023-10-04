@@ -53,4 +53,8 @@ No errors were returned when passing through the official W3C validator
 #### CSS
 No errors were found when passing through the official (Jigsaw) validator
 
+### Browser Testing
+Functionality, layout and responsiveness was tested with following browsers:
+Microsoft Edge 
+
 
