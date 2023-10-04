@@ -205,22 +205,16 @@ p {
 }
 
 /* Activities Page Main Content */
+#activities h3 {
+    padding-bottom: 5px;
+}
 #activities {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-#activities h3 {
-    padding-bottom: 5px;
-}
-
-#activities-hiking,
-#activities-biking,
-#activities-wildlife,
-#activities-fishing,
-#activities-swimming,
-#activities-skiing {
+.activities {
     flex-basis: 350px;
     flex-grow: 1;
     padding: 10px 20px;
@@ -568,12 +562,7 @@ a.link:hover {
         padding-right: 5px;
     }
 
-    #activities-hiking,
-    #activities-biking,
-    #activities-wildlife,
-    #activities-fishing,
-    #activities-swimming,
-    #activities-skiing {
+    .activities {
         flex-basis: 33%;       
     }
 
