@@ -543,6 +543,7 @@ a.link:hover {
     }
 
     #hero-nature {
+        height: 500px;
         background-position: 40% 70%;
     }
 
@@ -559,6 +560,7 @@ a.link:hover {
     }
 
     #hero-activities {
+        height: 500px;
         background-position: 20% 75%;
     }
 

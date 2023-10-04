@@ -43,3 +43,14 @@ The footer area contains links to Facebook, X (Twitter), and Instagram. As I use
 As users might want to receive information about more than one topic I originally used checkboxes for the Contact us page. However, after som trials and Google research I found out that this requires Javascript which was not part of course so far.
 If there is interest from local service providers, more and detailed information about activities and accommodation could be included. It would also be possible to create Facebook and Instagram accounts for "Visit Järbo" and allow a group of people to post updates, to replace the empty links to real content. 
 
+
+## Testing
+
+### Validator Testing
+#### HTML
+No errors were returned when passing through the official W3C validator
+
+#### CSS
+No errors were found when passing through the official (Jigsaw) validator
+
+
