@@ -71,7 +71,7 @@ nav {
     left: 0;
     padding: 0 1rem 1rem 0;
     top: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #ffffffe6;
 }
 
 #nav-toggle:checked~nav {
@@ -109,7 +109,7 @@ p {
 }
 
 #hero-text {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #ffffffb3;
     position: absolute;
     border-radius: 5px;
     padding: 25px;
@@ -153,7 +153,7 @@ p {
 }
 
 #nature-text {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #ffffffb3;
     position: absolute;
     border-radius: 5px;
     padding: 10px;
@@ -195,7 +195,7 @@ p {
 }
 
 #activities-text {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #ffffffb3;
     position: absolute;
     border-radius: 5px;
     padding: 10px;
@@ -266,7 +266,7 @@ a.link:hover {
 
 #contact-form {
     color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #ffffffb3;
     padding: 10px;
     border-radius: 5px;
     width: 100%;
