@@ -172,9 +172,7 @@ p {
 #nature h3 {
     padding-bottom: 5px;
 }
-#nature-forest,
-#nature-lake,
-#nature-wildlife {
+.natureg {
     flex-basis: 350px;
     flex-grow: 1;
     padding: 10px 20px;
