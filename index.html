@@ -16,6 +16,12 @@
    
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/sweden.webp" type="image/webp">
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/lake.webp" type="image/webp">
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/bear-large.webp" type="image/webp">
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/forest.webp" type="image/webp">
   </head>
   <body>
     <!-- Header -->
