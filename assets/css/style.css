@@ -282,7 +282,7 @@ a.link:hover {
     font-size: 90%;
     padding: 5px;
 }
-.text-input:focus {
+.text-input:focus-visible {
     border: 3px solid #305f18;
 }
 

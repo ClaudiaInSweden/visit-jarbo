@@ -16,20 +16,30 @@ The index.html/Home page is the starting point for users. It shall provide a sho
 The bear image gives a hint of the exciting things that you will find when you continue on the website.
 
 #### Navigation
-The navigation bar on top of the page is featured on all five pages with the same look
+The navigation bar on top of the page is featured with the same look on all five pages. The menu is fully responsive and it's easy to navigate for the user as the active tab is easy recognisable by changed colour and underline.
+Links are available to all pages: Home, Nature, Activities, Gallery, Contact us. The Visit Järbo text is linked to the Start page. 
 
-#### nature.html
+#### Nature
 
-The hero image on the nature page shows a peaceful, quiet lake. It invites the user to relax and take a deep breath. 
-The text describes short what the user can expect being outdoor. 
+The hero image on the Nature page shows a peaceful, quiet lake. It invites the user to relax and take a deep breath. 
+The text describes in short what the user can expect being outdoor in the area. 
 
-#### activities.html
+#### Activities
 
 The hero image on the activities page shows a trail in the forest. It can be used for hiking or bicycling and you can find further activities that are possible to do in the area. There are also links to external information pages and service providers which open in a new tab. 
 
-#### gallery.html
-The gallery page shows pictures of the are as well as wild animals that you might see while strolling through the forest. 
+#### Gallery
+The gallery page shows pictures of the area as well as wild animals that the user might be able to see while strolling through the forest. 
+The images include alt-tags to provide respective information if screen readers are used. 
 
-#### contact.html
-The contact page image shows a bear that shall provide the feeling of exciting things to happen when filling in the contact form. 
+#### Contact us
+The contact us page image shows a bear that shall provide the feeling of exciting things to happen when filling in the contact form. 
+The input text will be displayed in green color and the send and reset buttons will change color when the mouse hovers over. 
+
+#### Social Media Links
+The footer area contains links to Facebook, X (Twitter), and Instagram. As I use icons the images include alt-tags to provide respective information if screen readers are used. All links open in a new tab and change color on mouse over. 
+
+### Features left to implement
+As users might want to receive information about more than one topic I originally used checkboxes for the Contact us page. However, after som trials and Google research I found out that this requires Javascript which was not part of course so far.
+If there is interest from local service providers, more and detailed information about activities and accommodation could be included. It would also be possible to create Facebook and Instagram accounts for "Visit Järbo" and allow a group of people to post updates, to replace the empty links to real content. 
 
