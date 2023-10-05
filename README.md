@@ -1,44 +1,71 @@
 # Visit Järbo
 
-
 ## Introduction
 
 ### Project Description
-Visit Järbo is a site that provides information to travellers about what to expect when coming to Järbo. 
 
-Its vicinity to the ski resort Kungsberget, makes the small town of Järbo an ideal place to stay for travellers who want to avoid the overcrowded area of Kungsberget. Järbos surroundings make it an ideal place to stay when visitors want to take a rest from their hectic everyday life. 
+Visit Järbo is a site that provides information to travellers about what to expect when coming to Järbo.
+
+Its vicinity to the ski resort Kungsberget, makes the small town of Järbo an ideal place to stay for travellers who want to avoid the overcrowded area of Kungsberget. Järbos surroundings make it an ideal place to stay when visitors want to take a rest from their hectic everyday life.
 
 ### Project Purpose
-There are are couple of international companies in the area and their employees and business partners are potential visitors who do need information about the place in English
 
+There are are couple of international companies in the area and their employees and business partners are potential visitors who do need information about the place in English.
+
+## User stories
+
+User story: As a visitor, I want to know what I can expect in Järbo so that I can make a decision if I travel there or not.
+
+End user goal: Visitor finds information about Järbo.
+
+End business goal: The visitor travels to Järbo.
+<hr>
+
+User story: As a visitor, I want to see images from the area so that I get a feeling if I would enjoy a stay there or not.
+
+End user goal: Visitor can look at images from the area.
+
+End business goal: The visitor travels to Järbo.
+<hr>
+
+User story: As a visitor, I want to know what I can do during my stay there so that I can plan my trip.
+
+End user goal: Visitor finds information about activities that can be done in the area.
+
+End business goal: The visitor travels to Järbo.
+<hr>
+
+User story: As a visitor, I want to know where I can find more information about the location.
+
+End user goal: The visitor can get more information via external links or requests more information via the contact us form.
+
+End business goal: The visitor travels to Järbo.
+<hr>
 
 ## Features
 
 ### Navigation
 
-- The respsonsive navigation bar on top of the page includes links to the Home, Nature, Activities, Gallery, Contact us. The Visit Järbo logo is linked to the Start page. It's identical on each page to enable easy navigation.
-- It allows users to navigate between pages on all devices without needing to use the "back"-button. 
+- The respsonsive navigation bar on top of the page includes links to the Home, Nature, Activities, Gallery, Contact us. The Visit Järbo logo is linked to the Start page.The navigation bar is identical on each page to enable easy navigation.
+- It allows users to navigate between pages on all devices without needing to use the "back"-button.
 
-
-### Home   
+### Home
 
 The Home page is the starting point for users. It provides a short overview of what Järbo has to offer
 
-
 ### Nature
 
-The pages describes in short what the user can expect being outdoor in the area. 
+The pages describes in short what the user can expect being outdoor in the area.
 
 ### Activities
 
 The page describes in short what kind of outdoor activities the user can enjoy.
-There are also links to external information pages and service providers. The links open in a new tab to allow easy navigation without needing to use the back-button.. 
+There are also links to external information pages and service providers. The links open in a new tab to allow easy navigation without needing to use the back-button.
 
 ### Gallery
 
-The page shows images of the area as well as wild animals that the user might be able to see during the stay. 
-The images include alt-tags to provide relevant information when screen readers are used. 
-
+The page shows images of the area as well as wild animals that the user might be able to see during the stay.
+The images include alt-tags to provide relevant information when screen readers are used.
 
 ### Contact us
 
@@ -46,34 +73,33 @@ The contact form enables user to request more information about outdoor activiti
 
 ### Footer
 
-The footer area contains links to relevant social media sites (Facebook, X (Twitter), and Instagram) to encourage users to keep connected. The icons include alterntive text to provide relevant information when screen readers are used. All links open in a new tab to allow easy navigation for the user. 
-
+The footer area contains links to relevant social media sites (Facebook, X (Twitter), and Instagram) to encourage users to keep connected. The icons include alterntive text to provide relevant information when screen readers are used. All links open in a new tab to allow easy navigation for the user.
 
 ### Future Features
+
 While the current version is fully functional, there are a some ideas for future development:
+
 - Include map and directions
 - Add more information about the location
-- Add Review connectivity (Tripadvisor, Google, or similar)
+- Add customer review connectivity (Tripadvisor, Google, or similar)
 - Add accommodation information & booking possibility
 - Add more service providers
 - Add livecam view & live weather conditions
- 
-
 
 ## Testing
-
 
 ### Validator Testing
 
 #### HTML
+
 No errors were returned when passing through the [W3C Markup validator](https://validator.w3.org/).
 
-
 #### CSS
+
 No errors were found when passing through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) validator
 
-
 ## Browser Testing
+
 Functionality, links, layout and responsiveness was tested with following browsers without any issues:
 
 - Microsoft Edge Version 117.0.2045.47
@@ -81,28 +107,28 @@ Functionality, links, layout and responsiveness was tested with following browse
 - Brave Version 1.58.135
 - Google Chrome Version 116.0.5845.188
   
-
 ## Device Testing
+
 Functionality, links, layout and responsiveness was tested on the following devices without any issues:
+
 - Dell Laptop 14" / 1920px x 1080px
 - HP Laptop 17" / 1920px x 1080px
 - Dell Screen 24" / 1920px x 1080px
 - Samsung Galaxy 22S Ultra / 3088px x 1440px
 - iPhone 8 / 1334px × 750px
 
-
 ### Findings under testing
 
-- As users might want to receive information about more than one topic I originally used checkboxes for the Contact us page. However, after som trials and Google research I found out that this requires Javascript which was not part of course so far. 
-
+- As users might want to receive information about more than one topic I originally used checkboxes for the Contact us page. However, after som trials and Google research I found out that this requires Javascript which was not part of course so far.
 
 ## Deployment
-to be continued
 
+to be continued
 
 ## Credits
 
 ### Content
+
 Idea, content and text are developed by myself.
 Inspiration for layout was taken from the walkthrough project "Love Running" and default SharePoint page layouts.
 
@@ -116,6 +142,7 @@ Inspiration for layout was taken from the walkthrough project "Love Running" and
 - Fonts Capriola and Merriweather from [Fontawesom](https://fontawesome.com/).
 
 ### Media
+
 All images showing "nature only" are photos taken by myself.
 Images including animals are from free sources as listed below:
 
@@ -125,11 +152,14 @@ Images including animals are from free sources as listed below:
 - Moose image: Photo by <a href="https://unsplash.com/@thejohnnyme?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nikola Johnny Mirkovic</a> on <a href="https://unsplash.com/photos/VFgxrL65zNI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Deer image: Photo by <a href="https://unsplash.com/@lassenystedtfoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lasse Nystedt</a> on <a href="https://unsplash.com/photos/FftpQKKGxOc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-
 ### Code
-Initially a lot of the css code was copied from the Walkthrough project "Love Running" and adapted to fit this site.
+
+Initially a lot of the css code was copied from the Walkthrough project "Love Running" and changed during the project to fit this site.
 
 - Copied Asterisk wildcard selector copied from the Walkthrough project "Love Running"
 - Header & Navigation copied from the Walkthrough project "Love Running"
 - Footer copied from the Walkthrough project "Love Running".
 - Gallery copied from the Walkthrough project "Love Running"
+- Contact us page copied from the Walkthrough project "Love Running"
+- Index page copied from the Walkthrough project
+- 
