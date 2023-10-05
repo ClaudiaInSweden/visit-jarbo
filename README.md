@@ -13,11 +13,7 @@ Its vicinity to the ski resort Kungsberget, makes the small town of Järbo an id
 There are are couple of international companies in the area and their employees and business partners are potential visitors who do need information about the place in English.
 
 
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="assets/readme-docs/amiresponsive.webp">
- <source media="(prefers-color-scheme: light)" srcset="assets/readme-docs/amiresponsive.webp">
- <img alt="Image of the website on all devices to show responsiveness" src="assets/readme-docs/amiresponsive.webp">
-</picture>
+![alt text](assets/readme-docs/amiresponsive.webp)
 
 
 ## User stories
@@ -83,7 +79,7 @@ The contact form enables user to request more information about outdoor activiti
 
 The footer area contains links to relevant social media sites (Facebook, X (Twitter), and Instagram) to encourage users to keep connected. The icons include alterntive text to provide relevant information when screen readers are used. All links open in a new tab to allow easy navigation for the user.
 
-### Future Features
+## Future Features
 
 While the current version is fully functional, there are a some ideas for future development:
 
@@ -125,6 +121,20 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
 #### Google Chrome Lighthouse Reports
 
+##### Home
+![Performance Home](assets/readme-docs/lighthouse_home.webp)
+
+##### Nature
+![Performance Nature](assets/readme-docs/lighthouse_nature.webp)
+
+##### Activities
+![Performance Activities](assets/readme-docs/lighthouse_activities.webp)
+
+##### Gallery
+![Performance Gallery](assets/readme-docs/lighthouse_gallery.webp)
+
+##### Contact us
+![Performance Contact us](assets/readme-docs/lighthouse_contact.webp)
 
 ## Browser Testing
 
