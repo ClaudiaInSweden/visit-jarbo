@@ -137,6 +137,12 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
 #### Google Chrome Lighthouse Reports
 
+Thess reports presents the results of Lighthouse testing to assess the performance, accessibility, best practices and SEO of [Visit Järbo](https://claudiainsweden.github.io/visit-jarbo/index.html).
+
+The tests were executed using the Google Chrome browser's DevTools.
+All pages score very high in all areas. Details for each page can be found by clicking the expand button.
+![Lighthouse score](assets/readme-docs/Lighthouse-score.webp)
+
 <details>
 <summary>Lighthouse Report for page Home</summary>
 
@@ -165,14 +171,31 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
 ## Manual Testing
 
-Feature	Action	Effect
-Logo	Click	Brings back to Home page
-Navbar Links	Click on Gallery	Opens Gallery
-Click on About	Opens About page
-Click on Contact	Opens Contact page
-Contact Page	Fill out the form and submit	A form dump is rendered
-Attempt to submit empty	Error pops up in field that's left empty
-Social Media Links	Test Instagram link	Instagram profile opens in a separate tab
+### Features Testing
+
+| Feature  | Action |Result|
+| ------------- | ------------- |-------------|
+|Header|
+| Logo	  | Click  | Links to Home Page|
+| Navigation icon  | Click  | Opens Navigation menu |
+|Navigation bar  | Click on Home  | Opens Home page |
+|Navigation bar  | Click on Nature  | Opens Nature page |
+|Navigation bar  | Click on Activities | Opens Activities page |
+|Navigation bar| Click on Gallery  | Opens Gallery page |
+|Navigation bar| Click on Contact us| Opens Contact us page |
+|  |  | |
+| Footer  | | |
+| Social Media Section	| Click on Facebook icon |Opens Facebook in a new tab |
+| Social Media Section	| Click on X icon |Opens Twitter in a new tab |
+| Social Media Section	| Click on Instagram icon |Opens Instagram in a new tab |
+| Pages |  |
+| Activities page  | Click on Links in text  | Open links in new tab|
+| Contact us page  | Click Send  |Error message in empty field|
+| Contact us page | Click on input field	|Green border and green input text |
+| Contact us page  | Click on Email field and writing text |Error message to enter email address|
+| Contact us page  | Click on Reset |Empties all fields |
+|Contact us page  | Click on Send |Redirects to confirmation page |
+
 
 ## Browser Testing
 
