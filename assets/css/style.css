@@ -172,7 +172,7 @@ p {
 #nature h3 {
     padding-bottom: 5px;
 }
-.natureg {
+.nature {
     flex-basis: 350px;
     flex-grow: 1;
     padding: 10px 20px;
@@ -322,7 +322,20 @@ a.link:hover {
 #photos img {
     width: 100%;
 }
-
+g
+.confirmation {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    width: 75%;
+    border: 3px solid #783f04;
+    padding: 25px;
+    border-radius: 5%;
+    font-size: 170%;
+    text-align: center;
+}
+      
 /* Footer */
 #social-networks-links {
     text-align: center;
