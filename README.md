@@ -121,20 +121,31 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
 #### Google Chrome Lighthouse Reports
 
-##### Home
+<details>
+<summary>Lighthouse Report for page Home</summary>
+
 ![Performance Home](assets/readme-docs/lighthouse_home.webp)
+</details>
 
-##### Nature
+<details>
+<summary>Lighthouse Report for page Nature</summary>
 ![Performance Nature](assets/readme-docs/lighthouse_nature.webp)
+</details>
 
-##### Activities
+<details>
+<summary>Lighthouse Report for page Activities</summary>
 ![Performance Activities](assets/readme-docs/lighthouse_activities.webp)
+</details>
 
-##### Gallery
+<details>
+<summary>Lighthouse Report for page Gallery</summary>
 ![Performance Gallery](assets/readme-docs/lighthouse_gallery.webp)
+</details>
 
-##### Contact us
+<details>
+<summary>Lighthouse Report for page Contact us</summary>
 ![Performance Contact us](assets/readme-docs/lighthouse_contact.webp)
+</details>
 
 ## Browser Testing
 
