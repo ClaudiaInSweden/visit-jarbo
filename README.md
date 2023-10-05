@@ -86,6 +86,18 @@ While the current version is fully functional, there are a some ideas for future
 - Add more service providers
 - Add livecam view & live weather conditions
 
+## Typography and color scheme
+
+The colorschema was selected to represent the prominent colours in the nature: brown and green, that also harmonize very well with the images used on the site. These colours  are often associated with warmth, comfort, and steadiness and are therefore well suited for a site that aims to attract people who seek recreation and nature experiences.
+
+Typography was chosen because of its soft and rounded letters that reflect a more calm or even old-fashioned style but is very good readable.
+Fonts Capriola and Merriweather from [Fontawesom](https://fontawesome.com/).
+
+## Technology
+
+
+
+
 ## Testing
 
 ### Validator Testing
