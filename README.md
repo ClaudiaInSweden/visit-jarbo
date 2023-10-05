@@ -57,7 +57,8 @@ End business goal: The visitor travels to Järbo.
 
 The Home page is the starting point for users. It provides a short overview of what Järbo has to offer
 
-<details><summary>View Home Page</summary>
+<details>
+<summary>View Home Page</summary>
 ![Home Page](assets/readme-docs/home.webp)
 </details>
 
@@ -66,7 +67,8 @@ The Home page is the starting point for users. It provides a short overview of w
 
 The Nature page describe in short what the user can expect being outdoors in the area.
 
-<details><summary>View Nature Page</summary>
+<details>
+<summary>View Nature Page</summary>
 ![Home Page](assets/readme-docs/nature.webp)
 </details>
 
@@ -75,7 +77,8 @@ The Nature page describe in short what the user can expect being outdoors in the
 The Activities page describes in short what kind of outdoor activities the user can enjoy.
 There are also links to external information pages and service providers. The links open in a new tab to allow easy navigation without the need to use the back-button.
 
-<details><summary>View Activities Page</summary>
+<details>
+<summary>View Activities Page</summary>
 ![Home Page](assets/readme-docs/activities.webp)
 </details>
 
@@ -84,7 +87,8 @@ There are also links to external information pages and service providers. The li
 The Gallery page shows images of the area as well as wild animals that the user might be able to see during the stay.
 The images include alt-tags to provide relevant information when screen readers are used.
 
-<details><summary>View Gallery Page</summary>
+<details>
+<summary>View Gallery Page</summary>
 ![Home Page](assets/readme-docs/gallery.webp)
 </details>
 
@@ -92,7 +96,8 @@ The images include alt-tags to provide relevant information when screen readers 
 
 The Contact us page enables users to request more information about outdoor activities, listed on the activities page. It includes fields for name, email, and radio buttons to select.
 
-<details><summary>View Contact us Page</summary>
+<details>
+<summary>View Contact us Page</summary>
 ![Home Page](assets/readme-docs/contact.webp)
 </details>
 
