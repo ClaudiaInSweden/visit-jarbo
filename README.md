@@ -12,6 +12,14 @@ Its vicinity to the ski resort Kungsberget, makes the small town of Järbo an id
 
 There are are couple of international companies in the area and their employees and business partners are potential visitors who do need information about the place in English.
 
+
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="assets/readme-docs/amiresponsive.webp">
+ <source media="(prefers-color-scheme: light)" srcset="assets/readme-docs/amiresponsive.webp">
+ <img alt="Image of the website on all devices to show responsiveness" src="assets/readme-docs/amiresponsive.webp">
+</picture>
+
+
 ## User stories
 
 User story: As a visitor, I want to know what I can expect in Järbo so that I can make a decision if I travel there or not.
@@ -114,6 +122,9 @@ No errors were returned when passing through the [W3C Markup validator](https://
 #### CSS
 
 No errors were found when passing through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) validator
+
+#### Google Chrome Lighthouse Reports
+
 
 ## Browser Testing
 
