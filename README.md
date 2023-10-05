@@ -95,7 +95,12 @@ Fonts Capriola and Merriweather from [Fontawesom](https://fontawesome.com/).
 
 ## Technology
 
-
+- IDE: Code Anywhere
+- Repository: GitHub
+- Image editor: SnagIt
+- Image converter: [Birme](<https://www.birme.net/>)
+- Favicon generator:[Favicon Generator](https://favicon.io/)
+  
 
 
 ## Testing
@@ -142,16 +147,15 @@ to be continued
 ### Content
 
 Idea, content and text are developed by myself.
-Inspiration for layout was taken from the walkthrough project "Love Running" and default SharePoint page layouts.
+Inspiration for layout from walkthrough project "Love Running" and default SharePoint page layouts.
 
-- Detailed information about what kind of fish there are to catch is from [iFiske](https://www.ifiske.se/en/fishing-harnen-holmsjon-langsjon-m-fl-vatten.htm).
+- Detailed information about what kind of fish there is to catch from [iFiske](https://www.ifiske.se/en/fishing-harnen-holmsjon-langsjon-m-fl-vatten.htm).
 - Information about per centage of forest in Sweden taken from [Visit Sweden](https://visitsweden.com/what-to-do/nature-outdoors/forest-bathing/).
 - Information about per centage of lakes in Sweden taken from [Skogskunskap/Forest knowledge](https://www.skogskunskap.se/hansyn/vatten-och-mark/om-hansyn-till-vatten-och-mark/vatten-i-sverige/)
 - Information about what animals can be seen at Wild Nordic taken from [Wild Nordic](https://wildnordic.se/en/home/)
-- Icons in the footer and in the text/headings were taken from Font Awesome
-- Favicon created using [Favicon Generator](https://favicon.io/).
-- Vector graphic for Favicon downloaded from [Vecteezy](https://www.vecteezy.com/)
-- Fonts Capriola and Merriweather from [Fontawesom](https://fontawesome.com/).
+- Icons from [Font Awesome](https://fontawesome.com/)
+- Vector graphic for Favicon from [Vecteezy](https://www.vecteezy.com/)
+- Fonts from [Google Fonts](https://fonts.google.com/).
 
 ### Media
 
