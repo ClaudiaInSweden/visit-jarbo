@@ -4,9 +4,9 @@
 
 ### Project Description
 
-Visit Järbo is a site that provides information to travellers about what to expect when coming to Järbo.
+Visit Järbo is a site that provides information to travelers about what to expect when coming to Järbo.
 
-Its vicinity to the ski resort Kungsberget, makes the small town of Järbo an ideal place to stay for travellers who want to avoid the overcrowded area of Kungsberget. Järbos surroundings make it an ideal place to stay when visitors want to take a rest from their hectic everyday life.
+Its vicinity to the ski resort Kungsberget makes the small town of Järbo an ideal place to stay for travelers who want to avoid the overcrowded area of Kungsberget. Järbos surroundings make it an ideal place to stay when visitors want to take a rest from their hectic everyday life.
 
 ### Project Purpose
 
@@ -18,7 +18,7 @@ There are are couple of international companies in the area and their employees 
 
 ## User stories
 
-User story: As a visitor, I want to know what I can expect in Järbo so that I can make a decision if I travel there or not.
+User story: As a visitor, I want to know what I can expect in Järbo so that I can decide if I travel there or not.
 
 End user goal: Visitor finds information about Järbo.
 
@@ -41,7 +41,7 @@ End business goal: The visitor travels to Järbo.
 
 User story: As a visitor, I want to know where I can find more information about the location.
 
-End user goal: The visitor can get more information via external links or requests more information via the contact us form.
+End user goal: The visitor can get more information via external links or request more information via the contact us form.
 
 End business goal: The visitor travels to Järbo.
 <hr>
@@ -50,8 +50,8 @@ End business goal: The visitor travels to Järbo.
 
 ### Navigation
 
-- The respsonsive navigation bar on top of the page includes links to the Home, Nature, Activities, Gallery, Contact us. The Visit Järbo logo is linked to the Start page.The navigation bar is identical on each page to enable easy navigation.
-- It allows users to navigate between pages on all devices without needing to use the "back"-button.
+- The responsive navigation bar on top of the page includes links to the Home, Nature, Activities, Gallery, Contact us. The Visit Järbo logo is linked to the Start page. The navigation bar is identical on each page to enable easy navigation.
+- It allows users to navigate between pages on all devices without needing to use the "back" button.
 
 ### Home
 
@@ -59,7 +59,7 @@ The Home page is the starting point for users. It provides a short overview of w
 
 ### Nature
 
-The pages describes in short what the user can expect being outdoor in the area.
+The pages describe in short what the user can expect being outdoors in the area.
 
 ### Activities
 
@@ -73,28 +73,28 @@ The images include alt-tags to provide relevant information when screen readers 
 
 ### Contact us
 
-The contact form enables user to request more information about outdoor activities, listed on the activities page. It includes fields for name, email and radio buttons to select.
+The contact form enables users to request more information about outdoor activities, listed on the activities page. It includes fields for name, email, and radio buttons to select.
 
 ### Footer
 
-The footer area contains links to relevant social media sites (Facebook, X (Twitter), and Instagram) to encourage users to keep connected. The icons include alterntive text to provide relevant information when screen readers are used. All links open in a new tab to allow easy navigation for the user.
+The footer area contains links to relevant social media sites (Facebook, X (Twitter), and Instagram) to encourage users to keep connected. The icons include alternative text to provide relevant information when screen readers are used. All links open in a new tab to allow easy navigation for the user.
 
 ## Future Features
 
-While the current version is fully functional, there are a some ideas for future development:
+While the current version is fully functional, there are some ideas for future development:
 
 - Include map and directions
 - Add more information about the location
 - Add customer review connectivity (Tripadvisor, Google, or similar)
 - Add accommodation information & booking possibility
 - Add more service providers
-- Add livecam view & live weather conditions
+- Add live view & live weather conditions
 
 ## Typography and color scheme
 
-The colorschema was selected to represent the prominent colours in the nature: brown and green, that also harmonize very well with the images used on the site. These colours  are often associated with warmth, comfort, and steadiness and are therefore well suited for a site that aims to attract people who seek recreation and nature experiences.
+The color scheme was selected to represent the prominent colors in nature: brown and green, which also harmonize very well with the images used on the site. These colors are often associated with warmth, comfort, and steadiness and are therefore well suited for a site that aims to attract people who seek recreation and nature experiences.
 
-Typography was chosen because of its soft and rounded letters that reflect a more calm or even old-fashioned style but is very good readable.
+Typography was chosen because of its soft and rounded letters that reflect a more calm or even old-fashioned style but are easy readable.
 Fonts Capriola and Merriweather from [Fontawesom](https://fontawesome.com/).
 
 ## Technology
@@ -149,7 +149,7 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
 ## Browser Testing
 
-Functionality, links, layout and responsiveness was tested with following browsers without any issues:
+Functionality, links, layout, and responsiveness were tested with the following browsers without any issues:
 
 - Microsoft Edge Version 117.0.2045.47
 - Firefox Version 118.0.1
@@ -158,7 +158,7 @@ Functionality, links, layout and responsiveness was tested with following browse
   
 ## Device Testing
 
-Functionality, links, layout and responsiveness was tested on the following devices without any issues:
+Functionality, links, layout, and responsiveness were tested on the following devices without any issues:
 
 - Dell Laptop 14" / 1920px x 1080px
 - HP Laptop 17" / 1920px x 1080px
@@ -168,7 +168,7 @@ Functionality, links, layout and responsiveness was tested on the following devi
 
 ### Findings under testing
 
-- As users might want to receive information about more than one topic I originally used checkboxes for the Contact us page. However, after som trials and Google research I found out that this requires Javascript which was not part of course so far.
+- As users might want to receive information about more than one topic, checkboxes were initially used on the Contact us page. However, after some trials and Google research it turned out that this feature requires Javascript which was not part of the course so far.
 
 ## Deployment
 
@@ -179,11 +179,11 @@ to be continued
 ### Content
 
 Idea, content and text are developed by myself.
-Inspiration for layout from walkthrough project "Love Running" and default SharePoint page layouts.
+Inspiration for the layout from walkthrough project "Love Running" and default SharePoint page layouts.
 
 - Detailed information about what kind of fish there is to catch from [iFiske](https://www.ifiske.se/en/fishing-harnen-holmsjon-langsjon-m-fl-vatten.htm).
-- Information about per centage of forest in Sweden taken from [Visit Sweden](https://visitsweden.com/what-to-do/nature-outdoors/forest-bathing/).
-- Information about per centage of lakes in Sweden taken from [Skogskunskap/Forest knowledge](https://www.skogskunskap.se/hansyn/vatten-och-mark/om-hansyn-till-vatten-och-mark/vatten-i-sverige/)
+- Information about percentage of forest in Sweden taken from [Visit Sweden](https://visitsweden.com/what-to-do/nature-outdoors/forest-bathing/).
+- Information about percentage of lakes in Sweden taken from [Skogskunskap/Forest knowledge](https://www.skogskunskap.se/hansyn/vatten-och-mark/om-hansyn-till-vatten-och-mark/vatten-i-sverige/)
 - Information about what animals can be seen at Wild Nordic taken from [Wild Nordic](https://wildnordic.se/en/home/)
 - Icons from [Font Awesome](https://fontawesome.com/)
 - Vector graphic for Favicon from [Vecteezy](https://www.vecteezy.com/)
@@ -202,12 +202,12 @@ Images including animals are from free sources as listed below:
 
 ### Code
 
-Initially a lot of the css code was copied from the Walkthrough project "Love Running" and changed during the project to fit this site.
+Initially, a lot of the css code was copied from the Walkthrough project "Love Running" and changed during the project to fit this site.
 
 - Copied Asterisk wildcard selector copied from the Walkthrough project "Love Running"
-- Header & Navigation copied from the Walkthrough project "Love Running"
+- Header & navigation copied from the Walkthrough project "Love Running"
 - Footer copied from the Walkthrough project "Love Running".
 - Gallery copied from the Walkthrough project "Love Running"
 - Contact us page copied from the Walkthrough project "Love Running"
 - Index page copied from the Walkthrough project
-- 
+  
