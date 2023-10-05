@@ -4,7 +4,7 @@
 
 ### Project Description
 
-Visit Järbo is a site that provides information to travelers about what to expect when coming to Järbo.
+[Visit Järbo](https://claudiainsweden.github.io/visit-jarbo/) is a site that provides information to travelers about what to expect when coming to Järbo.
 
 Its vicinity to the ski resort Kungsberget makes the small town of Järbo an ideal place to stay for travelers who want to avoid the overcrowded area of Kungsberget. Järbos surroundings make it an ideal place to stay when visitors want to take a rest from their hectic everyday life.
 
@@ -13,7 +13,7 @@ Its vicinity to the ski resort Kungsberget makes the small town of Järbo an ide
 There are are couple of international companies in the area and their employees and business partners are potential visitors who do need information about the place in English.
 
 
-![alt text](assets/readme-docs/amiresponsive.webp)
+![Responsive image example](assets/readme-docs/amiresponsive.webp)
 
 
 ## User stories
@@ -50,12 +50,13 @@ End business goal: The visitor travels to Järbo.
 
 ### Navigation
 
-- The responsive navigation bar on top of the page includes links to the Home, Nature, Activities, Gallery, Contact us. The Visit Järbo logo is linked to the Start page. The navigation bar is identical on each page to enable easy navigation.
-- It allows users to navigate between pages on all devices without needing to use the "back" button.
+- The responsive navigation bar on top of the page includes links to the Home, Nature, Activities, Gallery and Contact us page. The Visit Järbo logo is linked to the Start page. The navigation bar is identical on each page to enable easy navigation.
+- It allows users to navigate between pages on all devices without the need to use the "back" button.
 
 ### Home
 
 The Home page is the starting point for users. It provides a short overview of what Järbo has to offer
+
 <detail><summary>View Home Page</summary>
 ![Home Page](assets/readme-docs/home.webp)
 </detail>
@@ -63,30 +64,34 @@ The Home page is the starting point for users. It provides a short overview of w
 
 ### Nature
 
-The pages describe in short what the user can expect being outdoors in the area.
+The Nature page describe in short what the user can expect being outdoors in the area.
+
 <detail><summary>View Nature Page</summary>
 ![Home Page](assets/readme-docs/nature.webp)
 </detail>
 
 ### Activities
 
-The page describes in short what kind of outdoor activities the user can enjoy.
-There are also links to external information pages and service providers. The links open in a new tab to allow easy navigation without needing to use the back-button.
+The Activities page describes in short what kind of outdoor activities the user can enjoy.
+There are also links to external information pages and service providers. The links open in a new tab to allow easy navigation without the need to use the back-button.
+
 <detail><summary>View Activities Page</summary>
 ![Home Page](assets/readme-docs/activities.webp)
 </detail>
 
 ### Gallery
 
-The page shows images of the area as well as wild animals that the user might be able to see during the stay.
+The Gallery page shows images of the area as well as wild animals that the user might be able to see during the stay.
 The images include alt-tags to provide relevant information when screen readers are used.
+
 <detail><summary>View Gallery Page</summary>
 ![Home Page](assets/readme-docs/gallery.webp)
 </detail>
 
 ### Contact us
 
-The contact form enables users to request more information about outdoor activities, listed on the activities page. It includes fields for name, email, and radio buttons to select.
+The Contact us page enables users to request more information about outdoor activities, listed on the activities page. It includes fields for name, email, and radio buttons to select.
+
 <detail><summary>View Contact us Page</summary>
 ![Home Page](assets/readme-docs/contact.webp)
 </detail>
@@ -137,7 +142,7 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
 #### Google Chrome Lighthouse Reports
 
-Thess reports presents the results of Lighthouse testing to assess the performance, accessibility, best practices and SEO of [Visit Järbo](https://claudiainsweden.github.io/visit-jarbo/index.html).
+These reports presents the results of Lighthouse testing to assess the performance, accessibility, best practices and SEO of [Visit Järbo](https://claudiainsweden.github.io/visit-jarbo/index.html).
 
 The tests were executed using the Google Chrome browser's DevTools.
 All pages score very high in all areas. Details for each page can be found by clicking the expand button.
@@ -169,9 +174,9 @@ All pages score very high in all areas. Details for each page can be found by cl
 ![Performance Contact us](assets/readme-docs/lighthouse_contact.webp)
 </details>
 
-## Manual Testing
+### Manual Testing
 
-### Features Testing
+#### Features Testing
 
 | Feature  | Action |Result|
 | ------------- | ------------- |-------------|
@@ -190,9 +195,9 @@ All pages score very high in all areas. Details for each page can be found by cl
 | Social Media Section	| Click on Instagram icon |Opens Instagram in a new tab |
 | Pages |  |
 | Activities page  | Click on Links in text  | Open links in new tab|
-| Contact us page  | Click Send  |Error message in empty field|
+| Contact us page  | Click Send  |Error message if field is empty|
 | Contact us page | Click on input field	|Green border and green input text |
-| Contact us page  | Click on Email field and writing text |Error message to enter email address|
+| Contact us page  | Click on Email field and write text only |Error message to enter email address|
 | Contact us page  | Click on Reset |Empties all fields |
 |Contact us page  | Click on Send |Redirects to confirmation page |
 
@@ -222,13 +227,20 @@ Functionality, links, layout, and responsiveness were tested on the following de
 
 ## Deployment
 
-to be continued
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  
+The live link can be found here - <https://claudiainsweden.github.io/visit-jarbo/>
 
 ## Credits
 
 ### Content
 
 Idea, content and text are developed by myself.
+
 Inspiration for the layout from walkthrough project "Love Running" and default SharePoint page layouts.
 
 - Detailed information about what kind of fish there is to catch from [iFiske](https://www.ifiske.se/en/fishing-harnen-holmsjon-langsjon-m-fl-vatten.htm).
@@ -237,7 +249,8 @@ Inspiration for the layout from walkthrough project "Love Running" and default S
 - Information about what animals can be seen at Wild Nordic taken from [Wild Nordic](https://wildnordic.se/en/home/)
 - Icons from [Font Awesome](https://fontawesome.com/)
 - Vector graphic for Favicon from [Vecteezy](https://www.vecteezy.com/)
-- Fonts from [Google Fonts](https://fonts.google.com/).
+- Fonts from [Google Fonts](https://fonts.google.com/)
+- Images converted to webp with [Birme](https://www.birme.net/)
 
 ### Media
 
@@ -252,12 +265,26 @@ Images including animals are from free sources as listed below:
 
 ### Code
 
-Initially, a lot of the css code was copied from the Walkthrough project "Love Running" and changed during the project to fit this site.
+Initially, a lot of the code was copied from the Walkthrough project "Love Running" and changed during the project to fit this site.
 
-- Copied Asterisk wildcard selector copied from the Walkthrough project "Love Running"
+- Copied Asterisk wildcard selector from the Walkthrough project "Love Running"
 - Header & navigation copied from the Walkthrough project "Love Running"
-- Footer copied from the Walkthrough project "Love Running".
+- Footer copied from the Walkthrough project "Love Running"
 - Gallery copied from the Walkthrough project "Love Running"
 - Contact us page copied from the Walkthrough project "Love Running"
-- Index page copied from the Walkthrough project
+- Index page copied from the Walkthrough project "Love Running"
   
+  #### Inspiration and tutorials used from
+
+  - [W3Schools](https://www.w3schools.com/)
+  - [Mdn Web Docs](<https://developer.mozilla.org/en-US/>)
+  - [Stack overflow](https://stackoverflow.com/)
+  - Code Institute Slack Channel
+    - Special thanks to Craig Hudson, my fellow student Niclas Hugdahl, and my mentor Rohit Sharma
+
+
+  #### Templates and tutorial for creating the readme-file
+
+  - [bezebee - My First Project](https://github.com/bezebee/My-First-Project/blob/main/README.md)
+  - [Drupal Wiki](https://www.drupal.org/docs/develop/managing-a-drupalorg-theme-module-or-distribution-project/documenting-your-project/readmemd-template)
+  - [GitHub Docs](https://docs.github.com/en)
