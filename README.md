@@ -56,24 +56,40 @@ End business goal: The visitor travels to Järbo.
 ### Home
 
 The Home page is the starting point for users. It provides a short overview of what Järbo has to offer
+<detail><summary>View Home Page</summary>
+![Home Page](assets/readme-docs/home.webp)
+</detail>
+
 
 ### Nature
 
 The pages describe in short what the user can expect being outdoors in the area.
+<detail><summary>View Nature Page</summary>
+![Home Page](assets/readme-docs/nature.webp)
+</detail>
 
 ### Activities
 
 The page describes in short what kind of outdoor activities the user can enjoy.
 There are also links to external information pages and service providers. The links open in a new tab to allow easy navigation without needing to use the back-button.
+<detail><summary>View Activities Page</summary>
+![Home Page](assets/readme-docs/activities.webp)
+</detail>
 
 ### Gallery
 
 The page shows images of the area as well as wild animals that the user might be able to see during the stay.
 The images include alt-tags to provide relevant information when screen readers are used.
+<detail><summary>View Gallery Page</summary>
+![Home Page](assets/readme-docs/gallery.webp)
+</detail>
 
 ### Contact us
 
 The contact form enables users to request more information about outdoor activities, listed on the activities page. It includes fields for name, email, and radio buttons to select.
+<detail><summary>View Contact us Page</summary>
+![Home Page](assets/readme-docs/contact.webp)
+</detail>
 
 ### Footer
 
@@ -146,6 +162,17 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 <summary>Lighthouse Report for page Contact us</summary>
 ![Performance Contact us](assets/readme-docs/lighthouse_contact.webp)
 </details>
+
+## Manual Testing
+
+Feature	Action	Effect
+Logo	Click	Brings back to Home page
+Navbar Links	Click on Gallery	Opens Gallery
+Click on About	Opens About page
+Click on Contact	Opens Contact page
+Contact Page	Fill out the form and submit	A form dump is rendered
+Attempt to submit empty	Error pops up in field that's left empty
+Social Media Links	Test Instagram link	Instagram profile opens in a separate tab
 
 ## Browser Testing
 
